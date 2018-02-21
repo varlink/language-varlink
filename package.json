@@ -5,7 +5,7 @@
   "description": "varlink syntax",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/language-varlink",
+  "repository": "https://github.com/haraldh/language-varlink/",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
