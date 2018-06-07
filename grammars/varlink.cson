@@ -44,8 +44,18 @@ patterns: [
     name: 'keyword.other.varlink'
   }
   {
-    match: '\\b(string|bool|int|float|object)\\b'
-    name: 'storage.type.varlink'
+    begin: ':'
+    end: '[(),]'
+    patterns: [
+      {
+        match: '\\b(string|bool|int|float|object)\\b'
+        name: 'storage.type.varlink'    
+      }
+      {
+        match: '(\\[\\]|\\[string\\]|\\?)'
+        name: 'storage.modifier.varlink'
+      }
+    ]
   }
   {
     match: '\\b([A-Z][a-zA-Z0-9_]*)\\b'
