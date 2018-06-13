@@ -1,4 +1,4 @@
-scopeName: 'varlink'
+scopeName: 'source.varlink'
 name: 'varlink'
 fileTypes: [
   'varlink'
